@@ -3,7 +3,7 @@ cask "amqp-publish" do
   name "amqp-publish"
   desc "A command-line tool for amqp-publish"
   homepage "https://github.com/yasithab/homebrew-taps"
-  version "1.0.4"
+  version "1.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "amqp-publish" do
     on_intel do
       url "https://github.com/yasithab/homebrew-taps/releases/download/v#{version}/amqp-publish-#{version}-darwin-amd64.tar.gz",
         verified: "github.com/yasithab/homebrew-taps"
-      sha256 "cad1bb9d27de2c95bacb400157af1c6b49b8e6b572fb4784549e0be6d5451c22"
+      sha256 "e518e38a80dfbd4ce8eba12345a4521062fd23ad744799d335a3eb78ff8a1acd"
     end
     on_arm do
       url "https://github.com/yasithab/homebrew-taps/releases/download/v#{version}/amqp-publish-#{version}-darwin-arm64.tar.gz",
         verified: "github.com/yasithab/homebrew-taps"
-      sha256 "f63db040d699a5e04376ee36f50d04b3fa4c1b8a0a6c4da42a18559350131832"
+      sha256 "6a2dffdc3a965486a37f5dd0cb08377fabbc38433ea8809f292ebaa6326106e4"
     end
   end
 
