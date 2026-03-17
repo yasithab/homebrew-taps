@@ -3,7 +3,7 @@ cask "ssm" do
   name "ssm"
   desc "A command-line tool for AWS SSM"
   homepage "https://github.com/yasithab/homebrew-taps"
-  version "1.0.10"
+  version "1.0.11"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "ssm" do
     on_intel do
       url "https://github.com/yasithab/homebrew-taps/releases/download/v#{version}/ssm-#{version}-darwin-amd64.tar.gz",
         verified: "github.com/yasithab/homebrew-taps"
-      sha256 "ad7f6338d5215e8300af1af8a312aea077c3b2c838d934dfdbfed6a2a3d067fe"
+      sha256 "0c9598829d05d65c9831a5eb58262023b3f51d5e0e027798174995ff6b9037bb"
     end
     on_arm do
       url "https://github.com/yasithab/homebrew-taps/releases/download/v#{version}/ssm-#{version}-darwin-arm64.tar.gz",
         verified: "github.com/yasithab/homebrew-taps"
-      sha256 "e3156cb0d65146ff678a52b29bfc6bba2e7ec82248c0de51cdbe4304cf4a1d71"
+      sha256 "46eeda4202794cfd00b44f91fe7a80328e063817d81999a778a8ad0a62fccd54"
     end
   end
 
