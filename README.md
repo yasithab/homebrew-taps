@@ -12,6 +12,7 @@ brew tap yasithab/homebrew-taps
 | Tool | Documentation | Install Command |
 | :--- | :--- | :--- |
 | **AMQP Publisher CLI** | [View Guide](docs/amqp-publish.md) | `brew install amqp-publish` |
+| **Bunkr Downloader** | [View Guide](docs/bunkr.md) | `brew install bunkr` |
 | **AWS SSM Tool** | [View Guide](docs/ssm.md) | `brew install ssm` |
 
 ---
