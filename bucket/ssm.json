@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.1/ssm-1.2.1-windows-amd64.zip",
+            "bin": [
+                "ssm.exe"
+            ],
+            "hash": "bfe0e2a80dc009b930845a6a428dd05ce3b27e0bf61c1cb432ccbdea1482e63b"
+        },
+        "arm64": {
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.1/ssm-1.2.1-windows-arm64.zip",
+            "bin": [
+                "ssm.exe"
+            ],
+            "hash": "c3451a9247e361eb783ea7165f945c98b5dae06b277a199151299c9e8a22e225"
+        }
+    },
+    "homepage": "https://github.com/yasithab/homebrew-taps",
+    "description": "A command-line tool for AWS SSM"
+}
