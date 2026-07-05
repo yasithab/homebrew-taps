@@ -1,0 +1,21 @@
+{
+    "version": "1.2.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.1/amqp-publish-1.2.1-windows-amd64.zip",
+            "bin": [
+                "amqp-publish.exe"
+            ],
+            "hash": "5e94130518cab349dcdf19189a2138ede8dc7c73f04e58c8f197438a249a1395"
+        },
+        "arm64": {
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.1/amqp-publish-1.2.1-windows-arm64.zip",
+            "bin": [
+                "amqp-publish.exe"
+            ],
+            "hash": "9bda39823cc5ef504e5d6569bd9caa2e2f03f89829621e9fbe9060524de29d9d"
+        }
+    },
+    "homepage": "https://github.com/yasithab/homebrew-taps",
+    "description": "Robust RabbitMQ publisher with confirms, retries, and rate limiting"
+}
