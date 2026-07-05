@@ -30,7 +30,7 @@ This CLI tool (`bunkr`) resolves and signs CDN URLs, downloads albums concurrent
 
 ## 📦 Installation (Homebrew)
 
-This tool is available via a private tap. You can install it easily on macOS.
+This tool is available via a private tap. You can install it easily on macOS or Linux.
 
 ```bash
 # 1. Add the tap
