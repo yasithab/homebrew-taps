@@ -28,9 +28,11 @@ This CLI tool (`bunkr`) resolves and signs CDN URLs, downloads albums concurrent
 
 ---
 
-## 📦 Installation (Homebrew)
+## 📦 Installation
 
-This tool is available via a private tap. You can install it easily on macOS or Linux.
+This tool is available via a public tap for macOS and Linux (Homebrew) and Windows (Scoop).
+
+### 🍺 macOS / Linux (Homebrew)
 
 ```bash
 # 1. Add the tap
@@ -43,6 +45,21 @@ brew install bunkr
 **To Update:**
 ```bash
 brew upgrade bunkr
+```
+
+### 🪟 Windows (Scoop)
+
+```powershell
+# 1. Add the bucket
+scoop bucket add yasithab https://github.com/yasithab/homebrew-taps
+
+# 2. Install the tool
+scoop install bunkr
+```
+
+**To Update:**
+```powershell
+scoop update bunkr
 ```
 
 ---

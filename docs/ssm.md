@@ -30,9 +30,11 @@ This CLI tool creates a unified interface over **AWS Systems Manager (SSM)**. It
 
 ---
 
-## 📦 Installation (Homebrew)
+## 📦 Installation
 
-This tool is available via a private tap. You can install it easily on macOS or Linux.
+This tool is available via a public tap for macOS and Linux (Homebrew) and Windows (Scoop).
+
+### 🍺 macOS / Linux (Homebrew)
 
 ```bash
 # 1. Add the tap
@@ -45,6 +47,21 @@ brew install ssm
 **To Update:**
 ```bash
 brew upgrade ssm
+```
+
+### 🪟 Windows (Scoop)
+
+```powershell
+# 1. Add the bucket
+scoop bucket add yasithab https://github.com/yasithab/homebrew-taps
+
+# 2. Install the tool
+scoop install ssm
+```
+
+**To Update:**
+```powershell
+scoop update ssm
 ```
 
 ---

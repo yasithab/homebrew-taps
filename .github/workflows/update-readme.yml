@@ -29,9 +29,14 @@ jobs:
           echo "" >> README.md
           echo "## 📚 Available Formulas" >> README.md
           echo "" >> README.md
-          echo "To install these tools, first add the tap:" >> README.md
+          echo "To install these tools on macOS or Linux, first add the tap:" >> README.md
           echo "\`\`\`bash" >> README.md
           echo "brew tap $REPO_NAME" >> README.md
+          echo "\`\`\`" >> README.md
+          echo "" >> README.md
+          echo "On Windows, add the [Scoop](https://scoop.sh) bucket instead:" >> README.md
+          echo "\`\`\`powershell" >> README.md
+          echo "scoop bucket add yasithab https://github.com/$REPO_NAME" >> README.md
           echo "\`\`\`" >> README.md
           echo "" >> README.md
 
@@ -58,7 +63,7 @@ jobs:
             # Column 1: Title
             # Column 2: Link to the doc file
             # Column 3: The brew install command
-            echo "| **$TITLE** | [View Guide]($file) | \`brew install $SLUG\` |" >> README.md
+            echo "| **$TITLE** | [View Guide]($file) | \`brew install $SLUG\`<br>\`scoop install $SLUG\` |" >> README.md
 
           done
 
