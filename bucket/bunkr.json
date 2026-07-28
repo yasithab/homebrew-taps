@@ -1,19 +1,19 @@
 {
-    "version": "1.2.10",
+    "version": "1.2.11",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.10/bunkr-1.2.10-windows-amd64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.11/bunkr-1.2.11-windows-amd64.zip",
             "bin": [
                 "bunkr.exe"
             ],
-            "hash": "f478464a164c1113132ed5077f1293f947032015094be3686595b279ae617036"
+            "hash": "75c727e7b3c23afe251033d9850c64dd7a41d9cf949d8da673399166a22cba8a"
         },
         "arm64": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.10/bunkr-1.2.10-windows-arm64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.11/bunkr-1.2.11-windows-arm64.zip",
             "bin": [
                 "bunkr.exe"
             ],
-            "hash": "d9a42a1113b31ff9d02ad827bc22ce932149f671c9ce2f41965cc2abf5dd4193"
+            "hash": "86f2647ddc85db3fe776a4eb522ed08fdba6a9a7db0746154a485577cb3da09c"
         }
     },
     "homepage": "https://github.com/yasithab/homebrew-taps",
