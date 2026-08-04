@@ -5,20 +5,20 @@
 class AmqpPublish < Formula
   desc "Robust RabbitMQ publisher with confirms, retries, and rate limiting"
   homepage "https://github.com/yasithab/homebrew-taps"
-  version "1.2.12"
+  version "1.2.13"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.12/amqp-publish-1.2.12-darwin-amd64.tar.gz"
-      sha256 "09acbf517215fb6adb1bc92a04ef415690d5e6948b4c5587c056cad658eb55c6"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.13/amqp-publish-1.2.13-darwin-amd64.tar.gz"
+      sha256 "eabc1d131173258e2864ab0b438f734b4863e4462a395323fea635320b273a00"
 
       define_method(:install) do
         bin.install "amqp-publish"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.12/amqp-publish-1.2.12-darwin-arm64.tar.gz"
-      sha256 "f903a412dcc9399df08e8503547906ae7902c9fe0c947b6e3517ba086ee3e0d7"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.13/amqp-publish-1.2.13-darwin-arm64.tar.gz"
+      sha256 "9dac5ea3da53d0a9a682df596e539491f3f31dae72bcac6b3e7b27d4dc5ddc67"
 
       define_method(:install) do
         bin.install "amqp-publish"
@@ -28,15 +28,15 @@ class AmqpPublish < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.12/amqp-publish-1.2.12-linux-amd64.tar.gz"
-      sha256 "76cfd7922f1732a8892707769d9d4ec3c45d6613d5011c0cd499540034771472"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.13/amqp-publish-1.2.13-linux-amd64.tar.gz"
+      sha256 "9682a1bac5555aa6f488d3be413a4acca5f6d86d3f376db505f1fd38ca3bb7ba"
       define_method(:install) do
         bin.install "amqp-publish"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.12/amqp-publish-1.2.12-linux-arm64.tar.gz"
-      sha256 "aaee3bfa42530bc9d3639a3d0577ab6b7374521f91abe93bdfe629f8b47340bf"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.13/amqp-publish-1.2.13-linux-arm64.tar.gz"
+      sha256 "2239c304c337a5f4d50fc3dfb7a4de1ac9205183b58a9b5dc235ce9ca35f9fdb"
       define_method(:install) do
         bin.install "amqp-publish"
       end
