@@ -1,19 +1,19 @@
 {
-    "version": "1.2.13",
+    "version": "1.2.14",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.13/ssm-1.2.13-windows-amd64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.14/ssm-1.2.14-windows-amd64.zip",
             "bin": [
                 "ssm.exe"
             ],
-            "hash": "d5f6dcc49d5ef05e0086d0802feed1417dc89f617af958de91905e92d88fa469"
+            "hash": "841f95b85f51de512f5f2512d3a5de7be2eb25e363c9f239939b82a4d622d2a0"
         },
         "arm64": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.13/ssm-1.2.13-windows-arm64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.14/ssm-1.2.14-windows-arm64.zip",
             "bin": [
                 "ssm.exe"
             ],
-            "hash": "9fea2393e714ceba15424c10ccf14497316a5bdd9edb97a4d8b4d677fd6a9dcb"
+            "hash": "fe53bc03abc0066b1602224c1e437484c5be5258b4e0f5af26de964567199c5d"
         }
     },
     "homepage": "https://github.com/yasithab/homebrew-taps",
