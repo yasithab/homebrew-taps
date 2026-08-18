@@ -5,20 +5,20 @@
 class Ssm < Formula
   desc "A command-line tool for AWS SSM"
   homepage "https://github.com/yasithab/homebrew-taps"
-  version "1.2.20"
+  version "1.2.21"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.20/ssm-1.2.20-darwin-amd64.tar.gz"
-      sha256 "c1b20ce362530c808ba6cfec3165c6f6c4b55e6ba80f39853d7d93e4d71df553"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.21/ssm-1.2.21-darwin-amd64.tar.gz"
+      sha256 "55d8239387a0a58d7b2e636861d8aed4a98bdfc1b0357a22948b4abc68645dc1"
 
       define_method(:install) do
         bin.install "ssm"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.20/ssm-1.2.20-darwin-arm64.tar.gz"
-      sha256 "4915d61d1165b9adb1c28715feba241e7df551b340ad66b960b2d20f82f1282c"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.21/ssm-1.2.21-darwin-arm64.tar.gz"
+      sha256 "b7d33ed0a0adf44dcd2fbb65f1ca4fa42d9bc14a72b44410a4e902b7016cb639"
 
       define_method(:install) do
         bin.install "ssm"
@@ -28,15 +28,15 @@ class Ssm < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.20/ssm-1.2.20-linux-amd64.tar.gz"
-      sha256 "dbf1548a8bf1d3e5f7129001c85a5b58ae3a9143150d789425dd34ceee333789"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.21/ssm-1.2.21-linux-amd64.tar.gz"
+      sha256 "0eebacb3f28a4f65d9c29ee4492dec1de0963a8c6637762628a98f3bab12cc6c"
       define_method(:install) do
         bin.install "ssm"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.20/ssm-1.2.20-linux-arm64.tar.gz"
-      sha256 "3284f36caf2c9627ccce412f8f17ee3617afe51296623bab72c6b2b88bcacbe0"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.21/ssm-1.2.21-linux-arm64.tar.gz"
+      sha256 "0d83660edec71b5ba180ca5d748328289e9001ad193f88830dcb3f6a4f60b73d"
       define_method(:install) do
         bin.install "ssm"
       end
