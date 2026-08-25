@@ -5,20 +5,20 @@
 class Bunkr < Formula
   desc "A fast, reliable downloader for Bunkr albums and files"
   homepage "https://github.com/yasithab/homebrew-taps"
-  version "1.2.22"
+  version "1.2.23"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.22/bunkr-1.2.22-darwin-amd64.tar.gz"
-      sha256 "c1ba3016d56310c1457507891494f85c6e6477509bd7b649ab282b1d851469c6"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.23/bunkr-1.2.23-darwin-amd64.tar.gz"
+      sha256 "5b55aedcc25b8221ebdafcbe93e07d8a52a0d0669924e516d942ed05abb70c21"
 
       define_method(:install) do
         bin.install "bunkr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.22/bunkr-1.2.22-darwin-arm64.tar.gz"
-      sha256 "dfb65870b3fc17d1abe686edd56413946b7fe6f780291d9e833dacf112f88e5b"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.23/bunkr-1.2.23-darwin-arm64.tar.gz"
+      sha256 "81d0f543e4ad9b8494a8931a01966e7bf459a7ad6de8fa06083237c8345bbedd"
 
       define_method(:install) do
         bin.install "bunkr"
@@ -28,15 +28,15 @@ class Bunkr < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.22/bunkr-1.2.22-linux-amd64.tar.gz"
-      sha256 "033fef0569bbe51c989bb8a4548f58e6bde7a515725e187d905c1dffd1c8def5"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.23/bunkr-1.2.23-linux-amd64.tar.gz"
+      sha256 "f4f6be7238d782dcb54198a338e4e8fb42a68f62791774309e376c0573dd731f"
       define_method(:install) do
         bin.install "bunkr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.22/bunkr-1.2.22-linux-arm64.tar.gz"
-      sha256 "850c60a11e6ac380f4606cd9c338a72636ab9a96cc10afd17abf355266dcad76"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.23/bunkr-1.2.23-linux-arm64.tar.gz"
+      sha256 "ddf75c92b4996de23bc7663e53f871d36446d9680ce2c470d4772f6985b9d09f"
       define_method(:install) do
         bin.install "bunkr"
       end
