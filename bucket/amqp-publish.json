@@ -1,19 +1,19 @@
 {
-    "version": "1.2.25",
+    "version": "1.2.26",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.25/amqp-publish-1.2.25-windows-amd64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.26/amqp-publish-1.2.26-windows-amd64.zip",
             "bin": [
                 "amqp-publish.exe"
             ],
-            "hash": "1f20ce0b9274a19e1b186a224dca644df27d72b68bce8d3b585ff16e100a85d8"
+            "hash": "180b6ff86efb842d5b980856242b68d474954233c73f53bbeef7f4c59deb4d13"
         },
         "arm64": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.25/amqp-publish-1.2.25-windows-arm64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.26/amqp-publish-1.2.26-windows-arm64.zip",
             "bin": [
                 "amqp-publish.exe"
             ],
-            "hash": "8243e6d7b9d8d0a4d3494fd2386f7f2633cad0f12688c7e2cc4dd684aac184e0"
+            "hash": "5096f8a18dc5bf6906d69c5b30708eef3bc50d7b7a0cbf404954de25cf831991"
         }
     },
     "homepage": "https://github.com/yasithab/homebrew-taps",
