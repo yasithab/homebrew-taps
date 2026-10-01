@@ -1,0 +1,21 @@
+{
+    "version": "1.2.28",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.28/pbs-1.2.28-windows-amd64.zip",
+            "bin": [
+                "pbs.exe"
+            ],
+            "hash": "c0f41b99d73f946434d96afb37ffbaca8ac6d8429805e9123608e1da89ab6a4f"
+        },
+        "arm64": {
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.28/pbs-1.2.28-windows-arm64.zip",
+            "bin": [
+                "pbs.exe"
+            ],
+            "hash": "dcf3f114004b37229ecd5ca7b318121f6f63f1dc9f8497c0f7777658395d0f31"
+        }
+    },
+    "homepage": "https://github.com/yasithab/homebrew-taps",
+    "description": "Pirate Bay torrent search CLI with JSON output and mirror fallback"
+}
