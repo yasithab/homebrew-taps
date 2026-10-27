@@ -5,20 +5,20 @@
 class Pbs < Formula
   desc "Pirate Bay torrent search CLI with JSON output and mirror fallback"
   homepage "https://github.com/yasithab/homebrew-taps"
-  version "1.2.29"
+  version "1.2.30"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.29/pbs-1.2.29-darwin-amd64.tar.gz"
-      sha256 "8d4ff944e4d4a35f2b11be6a5b251d3c3ec40629b5b2b645c1c9785fcb31dcfd"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.30/pbs-1.2.30-darwin-amd64.tar.gz"
+      sha256 "050f4dcaba7e7c008097239058999662aa8985987417c991b0affabb16b3eb9f"
 
       define_method(:install) do
         bin.install "pbs"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.29/pbs-1.2.29-darwin-arm64.tar.gz"
-      sha256 "d888e1c8e551f92ce00d32fd3443344bf852df9173c5769236338c686a0d2db5"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.30/pbs-1.2.30-darwin-arm64.tar.gz"
+      sha256 "a7cfa170d4269b848446ecc2244197ce43372fd1960e012d92c6658bf0d4754b"
 
       define_method(:install) do
         bin.install "pbs"
@@ -28,15 +28,15 @@ class Pbs < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.29/pbs-1.2.29-linux-amd64.tar.gz"
-      sha256 "f41b7750bf9a286f8aa1076a7963f091fb05e2ec140bd5225aec027247a78943"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.30/pbs-1.2.30-linux-amd64.tar.gz"
+      sha256 "22b01cf7645a8130d99d4682e83ac6cb4610120621c597b41cd2e67ff62c49a3"
       define_method(:install) do
         bin.install "pbs"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.29/pbs-1.2.29-linux-arm64.tar.gz"
-      sha256 "4ebcfa432eb7c223924bb10e4fd7fef900845f9b35ca81068ec01c3c02db92a4"
+      url "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.30/pbs-1.2.30-linux-arm64.tar.gz"
+      sha256 "44e78716361cfe7dbcb83a42b587279819ee3a020395c983707e1661f63156ac"
       define_method(:install) do
         bin.install "pbs"
       end
