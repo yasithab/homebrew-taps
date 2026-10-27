@@ -1,19 +1,19 @@
 {
-    "version": "1.2.29",
+    "version": "1.2.30",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.29/pbs-1.2.29-windows-amd64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.30/pbs-1.2.30-windows-amd64.zip",
             "bin": [
                 "pbs.exe"
             ],
-            "hash": "c142b494c70bf060542226875f42df840e6d243a1b5ea31527ff4b3dfc4455e4"
+            "hash": "dcffe543954f562dd2832ddcb3888eb99e80b89cf06acc0df8e71e5a80279a35"
         },
         "arm64": {
-            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.29/pbs-1.2.29-windows-arm64.zip",
+            "url": "https://github.com/yasithab/homebrew-taps/releases/download/v1.2.30/pbs-1.2.30-windows-arm64.zip",
             "bin": [
                 "pbs.exe"
             ],
-            "hash": "5e0781624df6c6d9aa7379965dbdeeb78fc82bd381a9eff863f9df9df9d4dda4"
+            "hash": "5c79c89b4c812de8ae35ab100111bdeaa5970f5b51e516c5777e2ae9b41c630a"
         }
     },
     "homepage": "https://github.com/yasithab/homebrew-taps",
